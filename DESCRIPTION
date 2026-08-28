@@ -1,7 +1,7 @@
 Package: hydrogeofetch
 Type: Package
 Title: Hydrologic Geospatial Fabric Extraction Tool Chain
-Version: 2.0.1
+Version: 2.0.2
 Authors@R: c(person(given = "David", 
                     family = "Blodgett", 
                     role = c("aut", "cre"), 
@@ -43,7 +43,7 @@ LazyDataCompression: xz
 Language: en-US
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2026-08-20 18:02:44 UTC; root
+Packaged: 2026-08-27 14:37:43 UTC; root
 Author: David Blodgett [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-9489-1710>),
   Mike Johnson [ctb] (ORCID: <https://orcid.org/0000-0002-5288-8350>),
@@ -52,4 +52,4 @@ Author: David Blodgett [aut, cre] (ORCID:
   Lauren Koenig [ctb] (ORCID: <https://orcid.org/0000-0002-7790-330X>)
 Maintainer: David Blodgett <dblodgett@usgs.gov>
 Repository: CRAN
-Date/Publication: 2026-08-21 12:50:09 UTC
+Date/Publication: 2026-08-28 13:20:02 UTC

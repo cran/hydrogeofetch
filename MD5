@@ -1,6 +1,6 @@
-9606a3525f165ac30084331da2a33136 *DESCRIPTION
+653c33d6597885c79ae5daf39fc1b374 *DESCRIPTION
 9248d46241357357caf6f7338896191b *NAMESPACE
-fbbf1a4f098276051fe9a300da29ac87 *NEWS.md
+1751b2b61c79f16babdcdaecbd913317 *NEWS.md
 68c7457e7d6c116ded3797bcbe74b26c *R/A_hydrogeofetch.R
 27ef15e51042fe1088871997b5ccde61 *R/arcrest_tools.R
 09252194a886334006a5bbcaee1d3a58 *R/boundary_datasets.R
@@ -112,8 +112,8 @@ fbbe039c4c4cf33f77bad5a2b3ca28b3 *tests/testthat/data/flowline_index_reprex.gpkg
 57c559c700b0cf48c95e129c2f62eba0 *tests/testthat/data/rescale_data.rds
 e2450cde397c79683e6ce6bd8b55b13b *tests/testthat/data/reweight_test.rds
 358021cadccdd46bf37a6d7dc72350bc *tests/testthat/data/tiny_network.rds
-d3c548d289546e6c96ac1d91ab46a4bc *tests/testthat/fixtures.tar.gz
-87a25621317233646b394bc7ce6e1cba *tests/testthat/helper.R
+ce5b3d22dec324b3f3864d47dc367af3 *tests/testthat/fixtures.tar.gz
+e5ab92724b900f5112cf7aff57eca298 *tests/testthat/helper.R
 07f688d9abfac0cb7edc0817e310e30e *tests/testthat/test_00_plot_bbox_nhdplus.R
 f654754e27cfffb6e9031c90d1ad59be *tests/testthat/test_00_plot_integration_nhdplus.R
 bccd60b7db0c9ff90ff9834cbdbe7dc2 *tests/testthat/test_00_plot_local_extra_nhdplus.R
