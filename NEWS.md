@@ -1,3 +1,10 @@
+hydrogeofetch 2.0.3
+==========
+
+`get_drainage_area_estimates()` now warns and returns NULL, rather than
+stopping, when the NHDPlusV2 OGC API returns no flowline attributes for the
+upstream network.
+
 hydrogeofetch 2.0.2
 ==========
 

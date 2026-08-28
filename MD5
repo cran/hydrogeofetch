@@ -1,13 +1,13 @@
-653c33d6597885c79ae5daf39fc1b374 *DESCRIPTION
+6226d9b0e793427c6b51c1d51cd33e9f *DESCRIPTION
 9248d46241357357caf6f7338896191b *NAMESPACE
-1751b2b61c79f16babdcdaecbd913317 *NEWS.md
+3e9182ec47482e617304a6cd89caa73d *NEWS.md
 68c7457e7d6c116ded3797bcbe74b26c *R/A_hydrogeofetch.R
 27ef15e51042fe1088871997b5ccde61 *R/arcrest_tools.R
 09252194a886334006a5bbcaee1d3a58 *R/boundary_datasets.R
 1a245184910c9fe15ab03e77211b0cde *R/discover_nhdplus.R
 222ce2d5f14c83f5c0a510112760de45 *R/downloading_tools.R
 35471eb7c699d8528c2e435c01ab0fc2 *R/get_3dhp.R
-bed80f8b565dfc3b1b8fc2bf8e9a22f8 *R/get_drainage_area_estimates.R
+61348747f590972e05b11efcb00adb36 *R/get_drainage_area_estimates.R
 05c1fb2180f1e20f260bae43a3b66f55 *R/get_geoconnex.R
 cbf5d56b31a0d337f473ec4b23c60943 *R/get_hydro.R
 8c4f290b464f956ae31dddc77bfacacf *R/get_nhdplus.R
@@ -59,7 +59,7 @@ cf7559a681d345b5a9290a3d31ae7dd4 *man/get_3dhp_index.Rd
 b12feac20032801d6c2d7fce29f119f3 *man/get_boundaries.Rd
 c35169912b968118b25db8dcc6157157 *man/get_catchment_characteristics.Rd
 92fc56d9429df9857da0601a0fc1c6b2 *man/get_characteristics_metadata.Rd
-3345cf23d1717fd920d4d51d85f72a91 *man/get_drainage_area_estimates.Rd
+06328c9d82392d98864fe8ff5fb7ab1c *man/get_drainage_area_estimates.Rd
 05469288ebaa75b6b7e0ba6594352ab7 *man/get_elev_along_path.Rd
 faf404d686d9abbc96890af88c777392 *man/get_gagesII.Rd
 201750137c7d63bedbf7089506e45ab8 *man/get_geoconnex_reference.Rd
