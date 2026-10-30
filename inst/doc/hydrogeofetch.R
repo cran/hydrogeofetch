@@ -230,6 +230,26 @@ oldoption <- options(scipen = 9999)
 # 
 # hydroloom::index_points_to_lines(flowline, sf::st_geometry(gage), precision = 10)
 
+## ----mainstem_flowlines-------------------------------------------------------
+# new_hope <- "https://geoconnex.us/ref/mainstems/2408056"
+# 
+# nh_3dhp <- get_mainstem_flowlines(new_hope, "3dhp", include_confluences = TRUE)
+# 
+# confluences <- hydroloom::get_confluences(nh_3dhp)
+# 
+# confluences[grepl("/ref/", confluences$hydro_location_id), ]
+
+## ----translate, eval = FALSE--------------------------------------------------
+# # a point on New Hope River just above the Northeast Creek mouth
+# pt <- sf::st_sf(comid = 8894344,
+#                 geometry = sf::st_sfc(sf::st_point(c(-78.9763, 35.8355)),
+#                                       crs = 4326))
+# 
+# translate_hydrolocations(pt, "nhdpv2", "3dhp", method = "hydro_location")
+# 
+# # a Morgan Creek flowline
+# translate_flowlines(8896344, "nhdpv2", "3dhp")
+
 ## ----teardown, include=FALSE--------------------------------------------------
 # options(oldoption)
 # 

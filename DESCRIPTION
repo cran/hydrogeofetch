@@ -1,7 +1,7 @@
 Package: hydrogeofetch
 Type: Package
 Title: Hydrologic Geospatial Fabric Extraction Tool Chain
-Version: 2.0.4
+Version: 2.0.5
 Authors@R: c(person(given = "David", 
                     family = "Blodgett", 
                     role = c("aut", "cre"), 
@@ -28,9 +28,9 @@ URL: https://doi-usgs.github.io/hydrogeofetch/
         https://github.com/DOI-USGS/hydrogeofetch/
 BugReports: https://github.com/DOI-USGS/hydrogeofetch/issues/
 Depends: R (>= 4.1)
-Imports: hydroloom, dataRetrieval, dplyr, sf, units, jsonlite, httr2,
-        xml2, utils, data.table, methods, arrow, tools, zip, memoise,
-        digest
+Imports: hydroloom (>= 1.3.0), dataRetrieval, dplyr, sf, units,
+        jsonlite, httr2, xml2, utils, data.table, methods, arrow,
+        tools, zip, memoise (>= 2.0.0), digest
 Suggests: testthat, knitr, rmarkdown, ggmap, ggplot2, lwgeom, gifski,
         leaflet, httptest2, StreamCatTools, terra, maptiles, mapsf
 License: CC0
@@ -41,9 +41,9 @@ Config/testthat/edition: 3
 LazyData: true
 LazyDataCompression: xz
 Language: en-US
-Config/roxygen2/version: 8.0.0
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: no
-Packaged: 2026-09-08 14:05:05 UTC; root
+Packaged: 2026-10-30 11:55:48 UTC; root
 Author: David Blodgett [aut, cre] (ORCID:
     <https://orcid.org/0000-0001-9489-1710>),
   Mike Johnson [ctb] (ORCID: <https://orcid.org/0000-0002-5288-8350>),
@@ -52,4 +52,4 @@ Author: David Blodgett [aut, cre] (ORCID:
   Lauren Koenig [ctb] (ORCID: <https://orcid.org/0000-0002-7790-330X>)
 Maintainer: David Blodgett <dblodgett@usgs.gov>
 Repository: CRAN
-Date/Publication: 2026-09-09 08:30:02 UTC
+Date/Publication: 2026-10-30 14:50:02 UTC
